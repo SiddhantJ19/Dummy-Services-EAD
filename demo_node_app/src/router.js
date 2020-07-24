@@ -14,7 +14,7 @@ router.post('/badRequest', (req, res) => {
   //  logging request data but not sending to user
   console.log("Bad Request with body: " , body)
   
-  throw new ErrorHandler(400, 'Bad Request ' );
+  throw new ErrorHandler(400, 'Bad Request');
 });
 
 

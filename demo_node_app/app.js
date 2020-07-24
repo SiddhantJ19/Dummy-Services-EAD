@@ -5,10 +5,10 @@ const router = require('./src/router');
 const {handleError} = require('./src/error');
 
 // initializing raygun adapter instance
-const { init, errorHandler, emitError} = require("../raygun-adapter-nodejs/src/index")
+const { init, errorHandler, emitError} = require("../../raygun-adapter-nodejs/src/index")
 
 init({
-  ticket: '7BB3452B266EDEBF68FDEBB73A75C4A1A90F89C8D1B3E224A9',
+  ticket: '840225FD2121BACB85A8A99C71DCDE84B18D0E07F015D01C43',
   instance: 'http://localhost:2800',
 });
 
